@@ -151,3 +151,19 @@ body {
     
 }
 
+/* Animación */
+
+@keyframes animacion-hover {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+        background-color: blueviolet;
+    }
+}
+
+.s-1:hover {
+    animation: animacion-hover 1s ease;
+}
+

@@ -118,3 +118,25 @@ html {
     }
 }
 
+/* Media Queries Mobiles */
+
+@media (max-width: 767px) {
+
+    .layout-m {
+        flex-direction: column;
+        border: 2rem solid rgb(247, 220, 111 ) 
+    }
+    .main-1 {
+        border-style: none;
+        width: 100%;
+    }
+    .d-1 {
+        flex: 100%;
+    }
+    .main-2 {
+        width: 100%;
+        border-top: 2rem solid rgb(247, 220, 111 );
+    }
+    
+}
+

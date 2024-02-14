@@ -7,6 +7,11 @@ html {
     box-sizing: inherit;
     }
 
+/*  Color Fondo */
+
+body {
+    background-color: rgb(248, 249, 249);
+}
     /* Layout Header*/
 
 .layout-h {
@@ -116,6 +121,9 @@ html {
         width: 100%;
         border-top: 2rem solid rgb(247, 220, 111 );
     }
+    body {
+        background-color: rgb(25, 111, 61);
+    }
 }
 
 /* Media Queries Mobiles */
@@ -136,6 +144,9 @@ html {
     .main-2 {
         width: 100%;
         border-top: 2rem solid rgb(247, 220, 111 );
+    }
+    body {
+        background-color: rgb(155, 89, 182);
     }
     
 }
